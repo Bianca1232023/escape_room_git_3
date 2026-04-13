@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-const encoded = "ZXNwZXJvIHF1ZQ==";
+const encoded = "cGFydF9kb2NrZXI=";
 const decoded = Buffer.from(encoded, "base64").toString();
 
 app.get("/", (req, res) => {
